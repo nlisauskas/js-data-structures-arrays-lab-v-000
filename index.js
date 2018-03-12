@@ -26,3 +26,8 @@ function prependDriver(name) {
   new_array = [name, ...drivers]
   return new_array
 }
+
+function removeLastDriver(name) {
+  new_array = drivers.slice(0, drivers.length-1)
+  return new_array
+}
