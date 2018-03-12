@@ -32,7 +32,7 @@ function removeLastDriver(name) {
   return new_array
 }
 
-function removeLastDriver(name) {
+function removeFirstDriver(name) {
   new_array = drivers.slice(1)
   return new_array
 }
